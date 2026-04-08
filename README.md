@@ -30,7 +30,7 @@ Get an API key and enable the APIs
     Click Close on the dialog box.   
 
 ```bash
-export GOOGLE_MAPS_API_KEY=AIzaSyCF-dylB0OgG0UncAHkQIETpKczaVEqtjE  # ⚠️ Your own key
+export GOOGLE_MAPS_API_KEY=AIzaSyAOGDeMSVXFEYml9PCpWM4hpTTQvWveoo4  # ⚠️ Your own key
 ```
 ```bash
 cd ~/gcp-adk-mcp-tools/adk_mcp_tools
@@ -49,8 +49,12 @@ adk web --allow_origins "regex:https://.*\.cloudshell\.dev"
 
 A new browser tab opens with the ADK Dev UI. From the Select an agent drop-down on the left, select the google_maps_mcp_agent.
 Start a conversation with the agent and run the following prompts:  
-`Get directions from GooglePlex to SFO.`    
-`What's the route from Paris, France to Berlin, Germany?`   
+```text
+Get directions from GooglePlex to SFO.
+```
+```text    
+What's the route from Paris, France to Berlin, Germany? 
+```
 
 <br> 
 
