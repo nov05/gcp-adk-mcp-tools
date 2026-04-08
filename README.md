@@ -41,9 +41,10 @@ GOOGLE_CLOUD_LOCATION=global
 # GOOGLE_MAPS_API_KEY="YOUR_ACTUAL_API_KEY"
 MODEL=gemini-3-flash-preview
 EOF
+cp google_maps_mcp_agent/.env adk_mcp_server/.env
 ```
 ```bash
-cp google_maps_mcp_agent/.env adk_mcp_server/.env
+cd ~/gcp-adk-mcp-tools/adk_mcp_tools
 adk web --allow_origins "regex:https://.*\.cloudshell\.dev"
 ```
 
