@@ -56,6 +56,9 @@ Get directions from GooglePlex to SFO.
 ```text    
 What's the route from Paris, France to Berlin, Germany? 
 ```
+```text
+How do you get from Shanghai to Seattle?
+```   
 
 <br> 
 
