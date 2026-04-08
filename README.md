@@ -23,11 +23,11 @@ Get an API key and enable the APIs
 
   * Go to the Google Cloud console browser tab (not your Cloud Shell Editor).   
     You can close the Cloud Shell terminal pane in this browser tab for more console area.   
-    Search for Credentials in the search bar at the top of the page. Select it from the results.   
-    On the Credentials page, click Create credentials at the top of the page, then select API key.   
-    For Name, type GOOGLE_MAPS_API_KEY. Click Create.   
-    The API key created dialog displays your newly created API key. Be sure to copy and save this key locally for use later in the lab.   
-    Click Close on the dialog box.   
+    Search for `APIs` in the search bar at the top of the page. Select it from the results.   
+    Go to APIs & Services → Library, try enabling: `Places API`, and click `+ Create Credential`.   
+    For Name, type `GOOGLE_MAPS_API_KEY`. Click Create.   
+    The API key created dialog displays your newly created API key.
+    Be sure to copy and save this key locally for use later in the lab.   
 
 ```bash
 export GOOGLE_MAPS_API_KEY=AIzaSyAOGDeMSVXFEYml9PCpWM4hpTTQvWveoo4  # ⚠️ Your own key
