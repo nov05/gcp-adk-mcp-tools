@@ -60,6 +60,14 @@ cd ~/gcp-adk-mcp-tools/adk_mcp_tools
 adk web --allow_origins "regex:https://.*\.cloudshell\.dev"
 ```
 
+To view the web interface in a new tab, click the http://127.0.0.1:8000 link in the terminal output.  
+From the Select an agent drop-down on the left, select the adk_mcp_server.    
+Prompt the agent with the following:  
+```text  
+Load the content from http://example.com
+```
+
+
 
 
 
