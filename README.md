@@ -46,3 +46,13 @@ Start a conversation with the agent and run the following prompts:
 <br> 
 
 ## 👉 Task 3. Build an MCP server with ADK tools (MCP server exposing ADK)
+
+```bash
+export PATH_TO_YOUR_MCP_SERVER_SCRIPT="/home/$USER/gcp-adk-mcp-tools/adk_mcp_tools/adk_mcp_server/adk_server.py"
+echo $PATH_TO_YOUR_MCP_SERVER_SCRIPT
+```
+
+
+
+
+
