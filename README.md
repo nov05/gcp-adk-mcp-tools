@@ -51,6 +51,9 @@ Start a conversation with the agent and run the following prompts:
 export PATH_TO_YOUR_MCP_SERVER_SCRIPT="/home/$USER/gcp-adk-mcp-tools/adk_mcp_tools/adk_mcp_server/adk_server.py"
 echo $PATH_TO_YOUR_MCP_SERVER_SCRIPT
 ```
+```bash
+python3 ~/gcp-adk-mcp-tools/adk_mcp_tools/adk_mcp_server/adk_server.py
+```
 
 
 
