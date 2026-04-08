@@ -33,6 +33,9 @@ GOOGLE_CLOUD_LOCATION=global
 MODEL=gemini-3-flash-preview
 EOF
 ```
+```bash
+cp google_maps_mcp_agent/.env adk_mcp_server/.env
+```
 
 <br> 
 
