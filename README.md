@@ -35,7 +35,13 @@ EOF
 ```
 ```bash
 cp google_maps_mcp_agent/.env adk_mcp_server/.env
+adk web --allow_origins "regex:https://.*\.cloudshell\.dev"
 ```
+
+A new browser tab opens with the ADK Dev UI. From the Select an agent drop-down on the left, select the google_maps_mcp_agent.
+Start a conversation with the agent and run the following prompts:  
+`Get directions from GooglePlex to SFO.`    
+`What's the route from Paris, France to Berlin, Germany?`   
 
 <br> 
 
