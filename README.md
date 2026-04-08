@@ -61,8 +61,6 @@ What's the route from Paris, France to Berlin, Germany?
 ## 👉 Task 3. Build an MCP server with ADK tools (MCP server exposing ADK)
 
 ```bash
-export PATH_TO_YOUR_MCP_SERVER_SCRIPT="/home/$USER/gcp-adk-mcp-tools/adk_mcp_tools/adk_mcp_server/adk_server.py"
-echo $PATH_TO_YOUR_MCP_SERVER_SCRIPT
 python3 ~/gcp-adk-mcp-tools/adk_mcp_tools/adk_mcp_server/adk_server.py
 ```
 In a new terminal window:  
