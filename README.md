@@ -29,6 +29,9 @@ Get an API key and enable the APIs
     The API key created dialog displays your newly created API key.
     Be sure to copy and save this key locally for use later in the lab.   
 
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-mcp-tools/2026-04-08%2003_19_11-NVIDIA%20GeForce%20Overlay.jpg" width=800>   
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-mcp-tools/2026-04-08%2003_19_44-NVIDIA%20GeForce%20Overlay.jpg" width=800>     
+ 
 ```bash
 export GOOGLE_MAPS_API_KEY=AIzaSyAOGDeMSVXFEYml9PCpWM4hpTTQvWveoo4  # ⚠️ Your own key
 ```
@@ -60,6 +63,9 @@ What's the route from Paris, France to Berlin, Germany?
 How do you get from Shanghai to Seattle?
 ```   
 
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-mcp-tools/2026-04-08%2003_16_08-NVIDIA%20GeForce%20Overlay.jpg" width=800>    
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-mcp-tools/2026-04-08%2003_36_54-NVIDIA%20GeForce%20Overlay.jpg" width=800>       
+
 <br> 
 
 ## 👉 Task 3. Build an MCP server with ADK tools (MCP server exposing ADK)
@@ -82,6 +88,7 @@ Prompt the agent with the following:
 Load the content from http://example.com
 ```
 
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/gcp-adk-mcp-tools/2026-04-08%2002_47_22-NVIDIA%20GeForce%20Overlay.jpg" width=800>   
 
 
 
