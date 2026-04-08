@@ -35,8 +35,24 @@ root_agent = LlmAgent(
         Help the user with mapping, directions, and finding places
         using Google Maps tools.
     """,
-
     ## Add the MCPToolset below:
+    tools=[
+        MCPToolset(
+        connection_params=StdioConnectionParams(
+            server_params=StdioServerParameters(
+                command='npx',
+                args=[
+                    "-y",
+                    "@modelcontextprotocol/server-google-maps",
+                ],
+                env={
+                    "GOOGLE_MAPS_API_KEY": google_maps_api_key
+                }
+            ),
+            timeout=15,
+            ),
+        )
+    ],
 )
 
 graceful_plugin.apply_429_interceptor(root_agent)
