@@ -36,7 +36,18 @@ root_agent = LlmAgent(
         provided by the user.
      """,
     ## Add the MCPToolset below:
-
+    tools=[
+        MCPToolset(
+        connection_params=StdioConnectionParams(
+            server_params=StdioServerParameters(
+                command="python3", # Command to run your MCP server script
+                args=[PATH_TO_YOUR_MCP_SERVER_SCRIPT], # Argument is the path to the script
+            ),
+            timeout=15,
+            ),
+            tool_filter=['load_web_page'] # Optional: ensure only specific tools are loaded
+        )
+    ],
 )
 
 graceful_plugin.apply_429_interceptor(root_agent)
