@@ -50,12 +50,12 @@ Start a conversation with the agent and run the following prompts:
 ```bash
 export PATH_TO_YOUR_MCP_SERVER_SCRIPT="/home/$USER/gcp-adk-mcp-tools/adk_mcp_tools/adk_mcp_server/adk_server.py"
 echo $PATH_TO_YOUR_MCP_SERVER_SCRIPT
-```
-```bash
 python3 ~/gcp-adk-mcp-tools/adk_mcp_tools/adk_mcp_server/adk_server.py
 ```
 In a new terminal window:  
 ```bash
+export PATH_TO_YOUR_MCP_SERVER_SCRIPT="/home/$USER/gcp-adk-mcp-tools/adk_mcp_tools/adk_mcp_server/adk_server.py"
+echo $PATH_TO_YOUR_MCP_SERVER_SCRIPT
 cd ~/gcp-adk-mcp-tools/adk_mcp_tools
 adk web --allow_origins "regex:https://.*\.cloudshell\.dev"
 ```
