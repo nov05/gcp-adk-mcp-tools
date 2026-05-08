@@ -1,6 +1,7 @@
 # 🟢 Google Skills Lab - **Use Model Context Protocol (MCP) Tools with ADK Agents**    
 
 * Lab - https://www.skills.google/paths/3273/course_templates/1275/labs/606599
+* Lab - https://www.skills.google/focuses/132178  
 
 <br> <br> 
 
